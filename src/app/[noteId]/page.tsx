@@ -18,7 +18,7 @@ export default async function Page({ params }: Props) {
   });
 
   return (
-    <main className="max-w-lg m-auto my-12">
+    <main className="m-auto my-12 max-w-lg">
       <UpdateNote id={noteId} content={note?.content} />
     </main>
   );
